@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: #062863;
+  background-image: url(../images/1.png), 
+  url(../images/2.png), 
+  url(../images/3.png), 
+  url(../images/last.png);
+  background-size: 15%;
+  background-position: left -1% top -15%, 
+  right -7.5% top -1%,
+  left -5% bottom -10%, 
+  right -5% bottom -5%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 1.5;
+}
+
+.bodycontainer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: auto;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.formbody {
+  padding-bottom: 3rem;
+  padding: 2.5rem;
+  width: 23rem;
+  border-bottom-right-radius: 1.25rem;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  background-color: #fff;
+}
+
+.header {
+  margin-bottom: 2rem;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #083e9e;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #4a5568;
+  text-align: center;
+  font-family: Karla, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.formmain {
+  overflow-y: auto;
+  min-height: min-content;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  flex: 1 1;
+  flex-direction: column;
+  display: flex;
+}
+
+.formelement {
+  position: relative;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.formlabel {
+  font-size: 0.75rem;
+  color: #4a5568;
+  margin-bottom: 0.25rem;
+  line-height: 2;
+  font-weight: 700;
+  font-family: U8, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+.forminput {
+  outline: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 100%;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #edf2f7;
+  color: #1a202c;
+}
+
+option  {
+  color: #1a202c;
+}
+
+.buttondiv {
+  flex: 1 1;
+  align-items: flex-end;
+  display: flex;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1rem;
+  color: white;
+  outline: none;
+  border: none;
+  border-bottom-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  background-color: #083e9e;
+  cursor: pointer;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+
+[role="button"],
+button {
+  cursor: pointer;
+}
+
+button {
+  background: 0 0;
+  padding: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+
+.loginlink  {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-size: .875rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  flex-direction: row;
+  white-space: nowrap;
+  text-align: center;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  font-family: Karla,sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-bottom-right-radius: .75rem;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+  text-decoration: none;
+}
